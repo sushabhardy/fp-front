@@ -1,0 +1,14 @@
+.Logo{
+  height: 1.9rem;
+  width: 1.9rem;
+  text-align: center;
+}
+
+.EditProfile{
+  margin-bottom: 8rem;
+}
+
+.Heading{
+  font-family: "Muli ExtraBold";
+  font-size: 16px;
+}

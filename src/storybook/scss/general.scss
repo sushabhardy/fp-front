@@ -1,0 +1,223 @@
+*{
+    font-family: 'Poppins', 'Sans-Serif' !important;
+    box-sizing: border-box;
+}
+
+img {  
+    user-drag: none;  
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+ }
+
+.material-icons.MuiIcon-root{
+    font-family: 'Material Icons' !important;
+}
+
+body{
+    background-color: $color-white;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sb-show-main.sb-main-padded{
+    padding: 0;
+}
+
+
+.fp-loader.inline{
+    position: relative;
+    display: inline-block;
+    vertical-align: center;
+}
+
+.fp-loader.fullscreen-bottom{
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    left: 0;
+    right: 0;
+    height: auto;
+    padding-bottom: $spacing-medium;
+}
+.fp-loader.fullscreen-bottom .fp-loader-wrapper{
+    position: relative;
+}
+.fp-loader.fullscreen-bottom .fp-loader-progress-wrapper{
+    height: 64px;
+    width: 64px;
+    margin-bottom: $spacing-small;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fp-loader.fullscreen-bottom .fp-loader-progress-title{
+    color: $color-hot-pink;
+    font-size: $font-size-medium;
+    text-align: center;
+}
+
+
+.fp-card{
+    border: 1px solid $color-border-bluegray-40;
+    border-radius: $border-radius-medium;
+    padding: $spacing-small;
+}
+
+
+.fp-bottom-sheet-wrapper{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9990;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: stretch;
+    align-items: flex-start;
+    padding-top: 64px;
+}
+
+.fp-bottom-sheet-bg{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.4);
+    
+}
+
+.fp-bottom-sheet-body-wrapper{
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    background: white;
+    box-shadow: 0 -2px 8px 0 rgba(0,0,0,0.08);
+    padding: 24px;
+    position: relative;
+    width: 100vw;
+    z-index: 1;
+    // animation-name: fp-bottom-sheet-body-up-anim;
+    // animation-duration: .25s;
+    // animation-fill-mode: forwards;
+    margin-top: auto;
+}
+
+
+// .fp-bottom-sheet-wrapper.fp-bottom-sheet-close .fp-bottom-sheet-body-wrapper{
+//     animation-name: fp-bottom-sheet-body-down-anim;
+//     animation-duration: .35s;
+//     animation-fill-mode: forwards;
+// }
+
+// .fp-bottom-sheet-wrapper.fp-bottom-sheet-close{
+//     animation-name: fp-bottom-sheet-close;
+//     animation-duration: .35s;
+//     animation-fill-mode: forwards;
+// }
+
+// .fp-bottom-sheet-wrapper.fp-bottom-sheet-close .fp-bottom-sheet-bg{
+//     animation-name: fp-bottom-sheet-bg-fade-out;
+//     animation-duration: .35s;
+//     animation-fill-mode: forwards;
+// }
+
+// .fp-bottom-sheet-body{
+//     height: 200vh;
+// }
+
+// @keyframes fp-bottom-sheet-body-up-anim{
+//     to{
+//         transform: translate3d(0,0,0);
+//     }
+// }
+
+// @keyframes fp-bottom-sheet-body-down-anim{
+//     to{
+//         transform: translate3d(0,100vh,0);
+//     }
+// }
+
+// @keyframes fp-bottom-sheet-bg-fade-in{
+//     to{
+//         opacity: 1;
+//     }
+// }
+
+// @keyframes fp-bottom-sheet-bg-fade-out{
+//     to{
+//         opacity: 0;
+//     }
+// }
+
+// @keyframes fp-bottom-sheet-close{
+//     0%{
+//         height: auto;
+//     }
+//     99%{
+//         height: auto;
+//     }
+//     100%{
+//         height: 0;
+//         padding: 0;
+//         z-index: -9999;
+//     }
+// }
+
+// @keyframes fp-bottom-sheet-close{
+//     0%{
+//         height: auto;
+//     }
+//     99%{
+//         height: auto;
+//     }
+//     100%{
+//         height: 0;
+//         padding: 0;
+//         z-index: -9999;
+//     }
+// }
+
+
+.fp-link{
+    color: $color-hot-pink;
+    text-decoration: none;
+}
+
+.fp-button{
+    height: $sizing-jumbo;
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    padding:0;
+    line-height: $sizing-jumbo;
+    color: white;
+    background-image: $color-pink-hotpink-grad;
+    cursor: pointer;
+}
+
+.fp-button-variant-rounded-bordered{
+    border: 1px solid $color-border-bluegray-40;
+    border-radius: 32px;
+    background: white;
+    height: $sizing-xxx-large;
+    line-height: $sizing-xxx-large;
+    color:$color-blueblack;
+}
+
+.fp-button-variant-flat{
+    border: 0;
+    border-radius: 0;
+    background: $color-bluegray-1;
+    height: $sizing-xx-jumbo;
+    line-height: $sizing-xx-jumbo;
+    color: $color-warm-blue !important;
+}
+

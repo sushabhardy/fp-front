@@ -1,0 +1,160 @@
+@import './config.scss';
+
+// .fp-input{
+//     padding: $spacing-medium $spacing-x-small;
+//     padding-top: #{$spacing-medium + $spacing-xxx-small};
+//     padding-bottom: $spacing-x-small;
+//     background-color: $color-bg-alt;
+//     font-size: $font-size-medium;
+//     border: 2px solid transparent;
+//     display: block;
+//     width: 100%;
+//     color: $color-text-default-100;
+//     border-radius: $border-radius-x-small;
+//     transition: 0.2s ease-out border-color, 0.2s ease-out background-color;
+//     height: $sizing-x-jumbo;
+// }
+
+// .fp-input:focus{
+//     border: 2px solid $color-border-pink-100;
+//     border-radius: $border-radius-x-small;
+//     outline: none;
+//     background: $color-bg-pink-10;
+// }
+
+// .fp-input-wrapper{
+//     position: relative;
+// }
+
+// .fp-input-wrapper > label{
+//     position: absolute;
+//     top: $spacing-medium;
+//     left: #{$spacing-x-small + 2px};
+//     cursor: text;
+//     transform-origin: 0 0;
+//     color: $color-text-default-40;
+//     transition: 0.15s ease-out transform, 0.15s ease-out color;
+// }
+
+// .fp-input.fp-input--filled + label{
+//     transform: translate3d(0,-50%,0) scale3d(0.75,0.75,1);
+//     color: $color-text-default-40;
+// }
+
+// .fp-input:focus + label{
+//     transform: translate3d(0,-50%,0) scale3d(0.75,0.75,1);
+//     color: $color-text-brand;
+// }
+
+
+
+
+/*
+    Text field customizations
+*/
+
+.MuiFormControl-root{
+    width: 100%;
+}
+
+.MuiInputBase-root{
+    border-radius: $border-radius-x-small !important;
+    height: $sizing-x-jumbo;
+}
+
+.MuiFilledInput-root{
+    background-color: $color-bg-alt !important;
+    border: 2px solid transparent !important;
+}
+
+.MuiFilledInput-root:hover, .MuiFilledInput-root:active{
+    background-color: $color-bluegray-2 !important;
+}
+
+.MuiFilledInput-root.Mui-focused{
+    border: 2px solid $color-border-pink-100 !important;
+    background: $color-bg-pink-10 !important;
+}
+
+.MuiFilledInput-underline:after, .MuiFilledInput-underline:before{
+    display: none;
+}
+
+.MuiInputLabel-animated.MuiInputLabel-filled{
+    line-height: $spacing-medium;
+    height: $spacing-medium;
+    transform: translate(#{$spacing-x-small}, $spacing-medium) scale(1);
+    color: $color-text-default-40;
+}
+
+.MuiInputLabel-animated.MuiInputLabel-filled.MuiInputLabel-shrink{
+    transform: translate(#{$spacing-x-small}, $spacing-xx-small) scale(0.75);
+}
+
+.fp-label-with-icon-wrapper{
+    height: $spacing-medium
+}
+
+.fp-label-with-icon-wrapper > .material-icons{
+    height: $sizing-small;
+    width: $sizing-small;
+    font-size: $font-size-large;
+    line-height: 1;
+    vertical-align: middle;
+    margin-right: $spacing-xx-small;
+    position: relative;
+    top: -1px;
+}
+
+.fp-label-with-icon-wrapper > span{
+    position: relative;
+    top: 0px;
+    display: inline-block
+}
+
+.MuiInputBase-input.MuiFilledInput-input{
+    padding: $spacing-medium $spacing-x-small;
+    padding-top: #{$spacing-medium + $spacing-xxx-small};
+    padding-bottom: $spacing-xx-small;
+    
+}
+
+
+
+
+// OTP INPUT
+.fp-otp-input-container{
+    display: grid !important;
+    grid-template-columns: repeat(6, minmax(auto, 48px));
+    column-gap: $spacing-xxx-small;
+}
+.fp-otp-input{
+    background-color: $color-bluegray-1;
+    border-radius: $border-radius-x-small;
+    // width: $sizing-xx-large !important;
+    width: 100% !important;
+    height: $sizing-jumbo;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    display: block;
+    border: 2px solid transparent;
+    font-size: $font-size-large;
+}
+
+.fp-otp-input--focus{
+    border: 2px solid $color-border-pink-100;
+    outline: none;
+    background: $color-bg-pink-10;
+}
+
+.fp-otp-input--error{
+    border: 2px solid $color-red;
+    outline: none;
+    background: rgba($color-red, 0.1);
+}
+
+.fp-otp-input--disabled{
+    color: rgba($color-blueblack-1, 0.2);
+    pointer-events: none;
+}

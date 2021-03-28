@@ -1,0 +1,94 @@
+.Logo{
+  height: 1.9rem;
+  width: 1.9rem;
+  text-align: center;
+}
+.Post{
+  padding: 0px;
+  margin: 15px 0px 0px 0px;
+}
+
+.PostContent {
+  padding: 10px 20px;
+}
+
+.StatsCtr{
+  padding-left: 20px;
+  padding-top: 0px;
+}
+
+.ReadMore{
+  padding-left: 20px;
+  padding-top: 10px;
+  font-family: "Muli Bold";
+}
+
+.ReadMoreText{
+  font-size: 10px;
+  text-transform: capitalize;
+  font-family: "Muli ExtraBold";
+}
+
+.ReadMoreText:hover {
+  opacity: 0.9
+}
+
+.Username{
+  font-family: "Muli SemiBold";
+}
+
+.Title{
+  font-family: "Muli ExtraBold";
+}
+
+.Description {
+  font-family: "Muli Light";
+}
+
+.Stats{
+  font-family: "Muli Regular";
+}
+
+.Ctrl{
+  font-size: 12px;
+  text-transform: capitalize;
+  font-family: "Muli Regular";
+}
+
+.Ctrls{
+  padding: 0px 10px; 
+}
+
+.Ctrls ion-icon {
+  font-size: 14px;
+}
+
+ion-icon{
+  font-size: 20px;
+}
+
+.FollowCtr{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.FollowBtn{
+  padding: 1px;
+}
+
+.FollowText{
+  font-size: 10px;
+}
+
+.CommentsHeading{
+  padding: 10px 10px 0px 15px;
+}
+
+.CommentCtr{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

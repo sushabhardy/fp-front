@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  fp-fe:
+    build: ./
+    container_name: fp-fe
+    ports:
+      - '8100:8100'
+    volumes:
+      - ./:/app
+      # - /app/node_modules
+    env_file:
+      - ./.env

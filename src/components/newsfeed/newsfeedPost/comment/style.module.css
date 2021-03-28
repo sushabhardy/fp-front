@@ -1,0 +1,16 @@
+.Comment{
+  padding: 0px 10px;
+  font-size: 10px;
+}
+
+
+.CommentAvatar{
+  height: 2rem;
+  width: 2rem;
+}
+
+.CommentBody{
+  font-family: "Muli Light";
+  padding: 10px 10px;
+  background-color: rgba(0,0,0,0.03) !important;
+}

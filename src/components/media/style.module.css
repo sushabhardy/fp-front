@@ -1,0 +1,16 @@
+
+.Media {
+  height: 10rem;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Photo{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,44 @@
+.Logo{
+  height: 1.9rem;
+  width: 1.9rem;
+  text-align: center;
+}
+
+ion-icon{
+  font-size: 25px;
+}
+
+.Tab{
+  position: absolute;
+  left: 83%;
+  top: 3%;
+}
+
+.Tab img{
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem; 
+}
+
+.HorizontalList{
+  display: flex;
+  flex-direction: row;
+  height: 13rem;
+  overflow: auto;
+  background-color: white;
+  white-space: nowrap;
+}
+
+.Loader{
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.Newsfeed{
+  margin-bottom: 3rem;
+}

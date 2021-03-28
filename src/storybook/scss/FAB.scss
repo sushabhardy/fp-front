@@ -1,0 +1,24 @@
+.MuiFab-root{
+    height: 64px !important;
+    border-radius: 8px !important;
+    color: white !important;
+    font-size: 20px !important;
+    text-transform: none !important;
+    width: calc(100vw - 48px) !important;
+    position: fixed !important;
+    bottom: 24px;
+    left: 24px;
+    right: 24px;
+    box-shadow: none !important;
+    transition-duration: 1s;
+    transition-property: background-image;
+    background-image: $color-pink-hotpink-grad !important;
+}
+
+.MuiFab-root[disabled]{
+    background-image: linear-gradient(135deg, #e5e5e5 0%, #e5e5e5 100%) !important;
+}
+
+.MuiFab-root .MuiIcon-root{
+    margin-right: 12px;
+}

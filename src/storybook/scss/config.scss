@@ -1,0 +1,153 @@
+$font-stack: 'Poppins', sans-serif;
+
+/*
+**********************
+COLOR VARIABLES
+**********************
+*/
+
+// brand colors
+$color-hot-pink: #EA4492;
+$color-pink: #FF9CDA;
+$color-blue: #428CD4;
+$color-warm-blue: #00429A;
+$color-blueblack: #041B2D;
+
+// brand gradients
+$color-blueblack-warmblue-grad: linear-gradient(135deg, $color-blueblack 0%, $color-warm-blue 100%);
+$color-warmblue-blue-grad: linear-gradient(135deg, $color-warm-blue 0%, $color-blue 100%);
+$color-blue-pink-grad: linear-gradient(135deg, $color-blue 0%, $color-pink 100%);
+$color-pink-hotpink-grad: linear-gradient(135deg, $color-pink 0%, $color-hot-pink 100%);
+
+// secondary colors
+$color-red: #F64338;
+$color-yellow: #FFCB4F;
+$color-green: #53D861;
+$color-white: #FFFFFF;
+
+// dark
+$color-blueblack-1: $color-blueblack;
+$color-blueblack-1: #1E4766;
+$color-blueblack-2: #436A89;
+
+// light
+$color-bluegray-1: #F4F8FB;
+$color-bluegray-2: #DDE7EE;
+$color-bluegray-3: #BBCEDD;
+$color-bluegray-4: #98B6CD;
+
+// border colors
+$color-border-bluegray-10: rgba($color-bluegray-4, 0.1);
+$color-border-bluegray-20: rgba($color-bluegray-4, 0.2);
+$color-border-bluegray-30: rgba($color-bluegray-4, 0.3);
+$color-border-bluegray-40: rgba($color-bluegray-4, 0.4);
+$color-border-bluegray-50: rgba($color-bluegray-4, 0.5);
+$color-border-bluegray-60: rgba($color-bluegray-4, 0.6);
+$color-border-bluegray-70: rgba($color-bluegray-4, 0.7);
+$color-border-bluegray-80: rgba($color-bluegray-4, 0.8);
+$color-border-bluegray-90: rgba($color-bluegray-4, 0.9);
+$color-border-bluegray-100: rgba($color-bluegray-4, 1.0);
+$color-border-pink-100: rgba($color-pink, 1.0);
+
+
+// background colors
+$color-bg-default: $color-white;
+$color-bg-alt: $color-bluegray-1;
+$color-bg-alt-inverse: $color-blueblack-1;
+$color-bg-backdrop: rgba(0,0,0,0.4);
+$color-bg-pink-10: rgba($color-pink, 0.1);
+
+// text colors
+$color-text-default-100: rgba($color-blueblack-1, 1.0);
+$color-text-default-80: rgba($color-blueblack-1, 0.8);
+$color-text-default-60: rgba($color-blueblack-1, 0.6);
+$color-text-default-40: rgba($color-blueblack-1, 0.4);
+$color-text-default-20: rgba($color-blueblack-1, 0.2);
+
+$color-text-link-prominent: $color-pink;
+$color-text-link-muted: $color-warm-blue;
+
+$color-text-brand: $color-hot-pink;
+$color-text-brand-disabled: rgba($color-text-brand, 0.4);
+
+
+/*
+**********************
+OPACITY VARIABLES
+**********************
+*/
+$disabled-1: 0.4;
+$disabled-2: 0.2;
+
+
+/*
+**********************
+SPACING VARIABLES
+**********************
+*/
+
+$spacing-none: 0px;
+$spacing-tiny: 4px;
+$spacing-xxx-small: 8px;
+$spacing-xx-small: 12px;
+$spacing-x-small: 16px;
+$spacing-small: 20px;
+$spacing-medium: 24px;
+$spacing-large: 32px;
+$spacing-x-large: 40px;
+
+
+
+/*
+**********************
+SIZING VARIABLES
+**********************
+*/
+
+$sizing-none: $spacing-none;
+$sizing-tiny:$spacing-tiny;
+$sizing-xxx-small: $spacing-xxx-small;
+$sizing-xx-small:$spacing-xx-small;
+$sizing-x-small: $spacing-x-small;
+$sizing-small: $spacing-small;
+$sizing-medium: $spacing-medium;
+$sizing-large: $spacing-large;
+$sizing-x-large: $spacing-x-large;
+$sizing-xx-large: 48px;
+$sizing-xxx-large: 56px;
+$sizing-jumbo: 64px;
+$sizing-x-jumbo: 72px;
+$sizing-xx-jumbo: 80px;
+$sizing-xxx-jumbo: 96px;
+$sizing-humongous: 128px;
+
+
+/*
+**********************
+FONT SIZE VARIABLES
+**********************
+*/
+
+$font-size-xx-small: 10px;
+$font-size-x-small: 12px;
+$font-size-small: 14px;
+$font-size-medium: 16px;
+$font-size-large: 20px;
+$font-size-x-large: 24px;
+
+
+/*
+**********************
+BORDER RADIUS VARIABLES
+**********************
+*/
+
+$border-radius-tiny: 2px;
+$border-radius-xxx-small: 4px;
+$border-radius-xx-small: 6px;
+$border-radius-x-small: 8px;
+$border-radius-small: 12px;
+$border-radius-medium: 16px;
+$border-radius-large: 24px;
+
+$border-radius-50-pc: 50%;

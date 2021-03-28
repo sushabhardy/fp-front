@@ -1,0 +1,14 @@
+.JobHeading{
+  font-family: "Muli ExtraBold";
+}
+
+.JobSubHeading{
+  font-family: "Muli SemiBold";
+}
+
+.Badge{
+  margin-top: 10px;
+  margin-left: 5px;
+  font-family: "Muli Light";
+  font-size: 0.8rem;
+}

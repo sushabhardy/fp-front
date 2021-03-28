@@ -1,0 +1,192 @@
+.fp-newsfeed-post-media-viewer{
+    margin: 0 #{-$spacing-medium};
+    background: $color-bluegray-1;
+}
+
+.video-react .video-react-volume-menu-button,
+.video-react-progress-control,
+.video-react-duration,
+.video-react-time-divider,
+.video-react-current-time{
+    display: none !important
+}
+
+.video-react-control-bar{
+    background: transparent !important;
+    position: static !important
+}
+
+.video-react-play-control.video-react-control{
+    opacity: 1;
+    transition: 0.5s opacity !important;
+    position: absolute !important;
+    top: calc(50% - #{$sizing-jumbo/2}) !important;
+    left: calc(50% - #{$sizing-jumbo/2}) !important;
+    bottom: auto !important;
+    right: auto !important;
+    height: $sizing-jumbo !important;
+    width: $sizing-jumbo !important;
+    
+}
+
+.video-react-play-control:before{
+    font-size: $sizing-jumbo !important;
+    position: static !important;
+    line-height: 1 !important;
+}
+
+.video-react-play-control.video-react-playing{
+    opacity: 0;
+    transition: 0s opacity !important;
+}
+
+.video-react-big-play-button{
+    background: transparent !important;
+    border: 0 !important;
+    height: $sizing-jumbo !important;
+    width: $sizing-jumbo !important;
+    top: calc(50% - #{$sizing-jumbo/2}) !important;
+    left: calc(50% - #{$sizing-jumbo/2}) !important;
+}
+.video-react .video-react-big-play-button:before{
+    font-size: $sizing-jumbo !important;
+    position: static !important;
+    line-height: 1 !important;
+}
+
+
+.video-react-icon-fullscreen{
+    position: absolute !important;
+    right: 12px !important;
+    bottom: 12px !important;
+    height: 32px !important;
+    width: 32px !important;
+    opacity: 0.5;
+    display: none !important;
+}
+
+.video-react-icon-fullscreen:before{
+    font-size: 32px !important;
+    position: static !important;
+    cursor: pointer;
+    line-height: 1 !important;
+}
+
+.video-react-bezel{
+    display: none !important
+}
+
+.video-react-video:focus, video:focus{
+    border:0 !important;
+    outline: 0 !important;
+}
+
+.video-react-video{
+    object-fit: cover
+}
+
+.fp-newsfeed-post-media-viewer{
+    position: relative;
+}
+
+.fp-newsfeed-post-media-viewer-control{
+    position: absolute;
+    height: 12px;
+    bottom: 12px;
+    left: 0;
+    right: 0;
+    background: transparent !important;
+}
+
+.MuiMobileStepper-dot{
+    background: white !important;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,32%);
+    opacity: 0.4;
+    margin: 0 6px !important;
+    border: 0.5px solid $color-border-bluegray-20;
+    width: 7px !important;
+    height: 7px !important;
+    box-sizing: content-box;
+}
+
+.MuiMobileStepper-dot.MuiMobileStepper-dotActive{
+    opacity: 1;
+}
+
+
+.fp-newsfeed-post-media-viewer-control .MuiButtonBase-root{
+    display: none !important
+}
+.fp-newsfeed-post-media-viewer-control{
+    justify-content: center !important;
+}
+
+
+.fp-avatar-summary{
+    display: flex;
+    align-items: center;
+}
+
+.fp-avatar-summary > .fp-user-summary{
+    margin-left: $spacing-xx-small;
+}
+
+.fp-avatar-summary > .MuiAvatar-root{
+
+}
+
+.fp-user-summary > .fp-user-full-name{
+    font-size: $font-size-small;
+    line-height: 19px;
+    color: $color-blueblack;
+}
+
+.fp-user-summary > .fp-username{
+    font-size: $font-size-x-small;
+    line-height: 16px;
+    opacity: 0.4;
+    color: $color-blueblack;
+}
+
+.fp-newsfeed-post-body > span{
+    font-size: $font-size-small;
+    line-height: 1.5;
+    opacity: 0.8;
+    color: $color-blueblack;
+}
+
+.fp-post-timeago{
+    font-size: $font-size-x-small;
+    line-height: 1.5;
+    opacity: 0.4;
+    color: $color-blueblack;
+}
+
+.fp-newsfeed-post-actions{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid $color-border-bluegray-40;
+    margin: #{-$spacing-medium};
+    margin-top: 0;
+    margin-bottom: #{-$spacing-small};
+    padding: $spacing-x-small 0;
+}
+
+.fp-newsfeed-post-actions img{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+.fp-newsfeed-post-actions img + span{
+    font-size: $font-size-x-small;
+    line-height: 1.5;
+    color: $color-warm-blue;
+    margin-left: $spacing-tiny;
+    vertical-align: middle;
+}
+
+.fp-liked > span, .fp-commented >span{
+    color: $color-hot-pink !important;
+    font-weight: 600;
+}

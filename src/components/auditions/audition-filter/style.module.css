@@ -1,0 +1,23 @@
+.Logo{
+  height: 1.9rem;
+  width: 1.9rem;
+  text-align: center;
+}
+
+.AuditionFilter{
+  margin-bottom: 22rem;
+}
+
+.Heading{
+  font-family: "Muli ExtraBold";
+  font-size: 16px;
+}
+
+.Loader{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

@@ -1,0 +1,37 @@
+.Heading{
+  font-family: "Muli ExtraBold";
+  font-size: 16px;
+}
+
+.MediaBtn{
+  font-size: 10px;
+}
+
+.MediaBtnsCtr {
+  margin-top: 10px;
+  border-radius: 30px;
+  padding: 0px;
+  border: 0.4px solid #bbb;
+}
+
+.PhotoPreview {
+  height: 10rem;
+  width: 10rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Photo{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.Toolbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

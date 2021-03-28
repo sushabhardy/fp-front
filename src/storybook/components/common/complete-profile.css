@@ -1,0 +1,40 @@
+.fp-complete-profile-box{
+  width: 11rem;
+  padding: 1rem 1rem;
+  max-width: 20rem;
+  margin: 1rem 1rem 0 1rem;
+  height: 11rem;
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+  background: linear-gradient(135deg, #FF9CDA 0%, #EA4492 100%), linear-gradient(135deg, #428CD4 0%, #FF9CDA 100%);
+}
+
+.fp-complete-profile-box-heading{
+  color: white;
+}
+
+.fp-complete-profile-box-next{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-top: 1rem;
+}
+
+.fp-complete-profile-box-perentage{
+  width: 100%;
+  height: 0.5rem;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 12px;
+  z-index: 1;
+  margin-top: 1rem;
+}
+
+.fp-complete-profile-box-completion{
+  z-index: 2;
+  width: 40%;
+  height: 0.5rem;
+  background-color: white;
+  border-radius: 12px;
+}

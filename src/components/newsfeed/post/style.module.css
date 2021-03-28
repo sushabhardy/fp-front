@@ -1,0 +1,101 @@
+.Post{
+  padding: 0px;
+  margin: 15px 0px;
+}
+
+.Post{
+	animation-duration: 0.5s;
+	animation-timing-function: ease-out;
+	animation-name: fade-up;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	transform: translater3d(0,20px,0);
+}
+
+.Post:nth-child(1){
+	animation-delay: 0.1s;
+}
+
+.Post:nth-child(2){
+	animation-delay: 0.2s;
+}
+
+.Post:nth-child(3){
+	animation-delay: 0.3s;
+}
+
+@keyframes fade-up{
+	from{
+		transform: translater3d(0,20px,0);
+		opacity: 0;
+	}
+	to{
+		transform: translater3d(0,0,0);
+		opacity: 1;
+	}
+}
+
+.Post:first-of-type{
+  margin-top: 0px;
+}
+
+.PostContent {
+  padding: 10px 20px;
+}
+
+.StatsCtr{
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.ReadMore{
+  padding-left: 20px;
+  padding-top: 10px;
+  font-family: "Muli Bold";
+}
+
+.ReadMoreText{
+  font-size: 10px;
+  text-transform: capitalize;
+  font-family: "Muli ExtraBold";
+}
+
+.ReadMoreText:hover {
+  opacity: 0.9
+}
+
+.Username{
+  font-family: "Muli SemiBold";
+}
+
+.Title{
+  font-family: "Muli ExtraBold";
+}
+
+.Description {
+  font-family: "Muli Light";
+}
+
+.Stats{
+  font-family: "Muli Regular";
+}
+
+.Ctrl{
+  font-size: 12px;
+  text-transform: capitalize;
+  font-family: "Muli Regular";
+}
+
+.Ctrls{
+  border-top: 0.5px solid #bbb;
+  border-bottom: 0.5px solid #bbb;
+  padding: 0px 10px; 
+}
+
+.Ctrls ion-icon {
+  font-size: 14px;
+}
+
+ion-icon{
+  font-size: 18px;
+}

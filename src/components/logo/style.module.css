@@ -1,0 +1,13 @@
+.Logo{
+  height: 1.9rem;
+  width: 1.9rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.LogoImage{
+  display: inline-block;
+}

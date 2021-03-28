@@ -1,0 +1,13 @@
+@media (min-width: 900px) {
+  .Parent{
+    border: 0.8px solid #bbb;
+    margin: 0 auto;
+    width: 40vw;
+  }
+}
+
+@media (max-width: 300px) {
+  .Parent {
+    display: none !important;
+  }
+}

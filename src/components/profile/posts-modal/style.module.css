@@ -1,0 +1,14 @@
+.Loader{
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.Heading{
+  font-family: "Muli ExtraBold";
+  font-size: 16px;
+}
